@@ -28,7 +28,7 @@ export function DynamicField({ field, value, onChange }: DynamicFieldProps) {
         <Label htmlFor={id} className="text-sm font-medium text-foreground">
           {field.label}
         </Label>
-        <Select value={String(value)} onValueChange={(v) => onChange(v)}>
+        <Select value={String(value)} onValueChange={(v) => onChange(v ?? "")}>
           <SelectTrigger id={id} className="w-full">
             <SelectValue />
           </SelectTrigger>
@@ -114,7 +114,7 @@ export function DynamicField({ field, value, onChange }: DynamicFieldProps) {
           min={field.min}
           max={field.max}
           step={field.step ?? 1}
-          onValueChange={(vals) => onChange(vals[0])}
+          onValueChange={(vals) => onChange((vals as number[])[0])}
           aria-label={field.label}
         />
       ) : null}
