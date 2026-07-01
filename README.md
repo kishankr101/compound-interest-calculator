@@ -3,7 +3,10 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [v0](https://v0.app).
 
 
- http://localhost:3000 
+https://compound-interest-calculator-9nmu6lp5u-kishankr101s-projects.vercel.app/
+
+
+
 
 
 ## Built with v0
