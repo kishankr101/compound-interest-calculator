@@ -3,8 +3,6 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [v0](https://v0.app).
 
 
-https://compound-interest-calculator-9nmu6lp5u-kishankr101s-projects.vercel.app/
-
 
 
 
@@ -27,7 +25,7 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open https://compound-interest-calculator-9nmu6lp5u-kishankr101s-projects.vercel.app/ with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
